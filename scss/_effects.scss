@@ -1,0 +1,42 @@
+#effects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    .effect__title{
+        text-align: center;
+        color: #22343D;
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    .effects__inner{
+        display: flex;
+        .effect__list{
+            .effect__item{
+                margin-left: 50px;
+                img{
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+                h5{
+                    display: inline-block;
+                    color: #22343D;
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-bottom: 30px;
+                }
+                p{
+                    width: 520px;
+                    color: #22343D;
+                    font-weight: 400;
+                    line-height: 28px;
+                    font-size: 16px;
+                    text-align: justify;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

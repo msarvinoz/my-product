@@ -1,0 +1,42 @@
+#enterprise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0.00) 100%);
+
+    .enter__inner {
+        text-align: center;
+        padding-top: 50px;
+        h4{
+            color: #22343D;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        h6{
+            color: #22343D;
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        p{
+            color: #22343D;
+            font-size: 18px;
+            font-weight: 400; 
+            margin-bottom: 40px;
+        }
+        a{
+            color: #F6F6F6;
+            padding: 11px 18px;
+            border-radius: 8px;
+            background: #02897A;
+        }
+        a:hover{
+            border: 1px solid #BCD0E5;
+            color: #02897A;
+            background-color: #fff;
+        }
+    }
+}

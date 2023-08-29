@@ -1,0 +1,124 @@
+#pricing {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 150px;
+
+    .pricing__inner {
+        padding-top: 120px;
+        text-align: center;
+    }
+
+    .pricing__title {
+        color: #22343D;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 32px;
+    }
+
+    .pricing__subtit {
+        font-size: 40px;
+        color: #22343D;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .pricing__desc {
+        color: #22343D;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 49px;
+    }
+
+    .card__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .card__item {
+            width: 323px;
+            height: 460px;
+            border-radius: 8px;
+            padding: 25px 30px;
+            box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+            transition: all 0.2s linear;
+
+            h5 {
+                color: #22343D;
+                font-size: 24px;
+                font-weight: 700;
+                padding-bottom: 20px;
+            }
+
+            .card__desc {
+                font-size: 16px;
+                font-weight: 400;
+                font-size: 16px;
+            }
+
+            h6 {
+                font-size: 16px;
+                font-weight: 400;
+                font-size: 16px;
+                padding-bottom: 8px;
+            }
+
+            .last__desc {
+                font-size: 16px;
+                font-weight: 400;
+                font-size: 16px;
+                padding-bottom: 28px;
+            }
+
+            .card__sum {
+                display: inline-block;
+                color: #02897A;
+
+                h4 {
+                    color: #02897A;
+                    font-size: 76px;
+                    font-weight: 700;
+                    text-align: center;
+                    display: inline-block;
+                }
+
+                sub {
+                    color: #02897A;
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+
+                p {
+                    color: #AFAFAF;
+                }
+            }
+
+            .order__btn {
+                width: 139px;
+                border: none;
+                color: #fff;
+                border-radius: 8px;
+                background: #02897A;
+                padding: 11px 19px 11px 18px;
+            }
+        }
+
+        .card__item:hover {
+            background-color: #02897A;
+            color: #fff;
+
+            h5,
+            h4,
+            sub {
+                color: #fff;
+            }
+
+            .order__btn {
+                color: #02897A;
+                background-color: #fff;
+            }
+        }
+
+    }
+}
