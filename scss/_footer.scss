@@ -17,7 +17,6 @@
                     margin-right: 10px;
                 }
                 a{
-                    color: #173A56;
                     font-size: 25px;
                     font-weight: 600;
                 }
@@ -25,16 +24,20 @@
             .social__media{
                 display: flex;
                 margin-left: -10px;
+                a:hover{
+                    img{
+                        width: 35px;
+                        height: 35px;
+                    }
+                }
             }
             .footer__title{
                 margin-top: 60px;
-                color: #22343D;
                 font-size: 23px;
                 font-weight: 400;
                 margin-bottom: 20px;
             }
             .contact__text{
-                color: #22343D;
                 font-size: 23px;
                 width: 280px;
                 margin-bottom: 30px;
@@ -46,8 +49,10 @@
                 margin-bottom: 10px;
                 a{
                     font-size: 16px;
-                    color: #22343D;
                     font-weight: 400;
+                }
+                a:hover{
+                    color: #02897A;
                 }
             }
             input{

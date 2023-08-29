@@ -46,7 +46,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
   box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
 }
 #header .navbar .logo {
@@ -56,7 +55,6 @@ a {
 #header .navbar .logo h2 {
   padding-left: 10px;
   font-size: 30px;
-  color: #173A56;
   font-weight: 700;
 }
 #header .navbar .logo:hover {
@@ -70,11 +68,9 @@ a {
 #header .navbar .nav__list .list__item a {
   transition: all 0.2s linear;
   font-size: 16px;
-  color: #22343D;
 }
 #header .navbar .nav__list .list__item a:hover {
   font-weight: 700;
-  color: #02897A;
 }
 #header .navbar .nav__list .list__item a:active {
   font-size: 18px;
@@ -122,19 +118,16 @@ a {
   text-align: center;
 }
 #pricing .pricing__title {
-  color: #22343D;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 32px;
 }
 #pricing .pricing__subtit {
   font-size: 40px;
-  color: #22343D;
   font-weight: 700;
   margin-bottom: 16px;
 }
 #pricing .pricing__desc {
-  color: #22343D;
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 49px;
@@ -153,7 +146,6 @@ a {
   transition: all 0.2s linear;
 }
 #pricing .card__list .card__item h5 {
-  color: #22343D;
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 20px;
@@ -222,26 +214,22 @@ a {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 50px;
-  background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 100%);
+  height: 320px;
 }
 #enterprise .enter__inner {
   text-align: center;
-  padding-top: 50px;
 }
 #enterprise .enter__inner h4 {
-  color: #22343D;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 16px;
 }
 #enterprise .enter__inner h6 {
-  color: #22343D;
   font-size: 34px;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 18px;
 }
 #enterprise .enter__inner p {
-  color: #22343D;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 40px;
@@ -267,13 +255,28 @@ a {
 }
 #effects .effect__title {
   text-align: center;
-  color: #22343D;
   font-size: 34px;
   font-weight: 700;
   margin-bottom: 50px;
+  transition: all 0.3s linear;
+}
+#effects .effect__title:hover {
+  color: #02897A;
+  border-bottom: solid transparent 0;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  margin-left: 10px;
 }
 #effects .effects__inner {
   display: flex;
+}
+#effects .effects__inner .main__img {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+#effects .effects__inner .main__img:hover {
+  width: 565px;
+  height: 400px;
 }
 #effects .effects__inner .effect__list .effect__item {
   margin-left: 50px;
@@ -284,19 +287,27 @@ a {
 }
 #effects .effects__inner .effect__list .effect__item h5 {
   display: inline-block;
-  color: #22343D;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
 }
+#effects .effects__inner .effect__list .effect__item h5:hover {
+  color: #02897A;
+}
 #effects .effects__inner .effect__list .effect__item p {
   width: 520px;
-  color: #22343D;
   font-weight: 400;
   line-height: 28px;
   font-size: 16px;
   text-align: justify;
   margin-bottom: 30px;
+  transition: all 0.2s linear;
+}
+#effects .effects__inner .effect__list .effect__item p:hover {
+  border-bottom: solid transparent 0px;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+  padding-left: 10px;
 }
 
 #faq {
@@ -308,14 +319,12 @@ a {
 }
 #faq .faq__title {
   text-align: center;
-  color: #22343D;
   font-size: 34px;
   font-weight: 700;
 }
 #faq .faq__text {
   text-align: center;
   font-size: 18px;
-  color: #22343D;
   font-weight: 400;
   margin-bottom: 40px;
 }
@@ -335,7 +344,6 @@ a {
   margin-top: 15px;
   font-size: 18px;
   font-weight: 500;
-  color: #22343D;
 }
 #faq .faq__inner .faq__answer, #faq .faq__inner .minus {
   display: none;
@@ -395,7 +403,6 @@ a {
   margin-right: 10px;
 }
 #footer .footer__inner .footer__list .footer__logo a {
-  color: #173A56;
   font-size: 25px;
   font-weight: 600;
 }
@@ -403,15 +410,17 @@ a {
   display: flex;
   margin-left: -10px;
 }
+#footer .footer__inner .footer__list .social__media a:hover img {
+  width: 35px;
+  height: 35px;
+}
 #footer .footer__inner .footer__list .footer__title {
   margin-top: 60px;
-  color: #22343D;
   font-size: 23px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 #footer .footer__inner .footer__list .contact__text {
-  color: #22343D;
   font-size: 23px;
   width: 280px;
   margin-bottom: 30px;
@@ -423,8 +432,10 @@ a {
 }
 #footer .footer__inner .footer__list .footer__item a {
   font-size: 16px;
-  color: #22343D;
   font-weight: 400;
+}
+#footer .footer__inner .footer__list .footer__item a:hover {
+  color: #02897A;
 }
 #footer .footer__inner .footer__list input {
   margin-bottom: 20px;
@@ -448,4 +459,36 @@ a {
 }
 #footer p {
   text-align: center;
+}
+
+a {
+  color: #22343D;
+}
+
+.light {
+  background: #fff;
+}
+.light a, .light h2, .light h3, .light h4, .light h5, .light h6, .light p {
+  color: #22343D;
+}
+
+.navbar {
+  background: #fff;
+}
+
+#enterprise {
+  background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 100%);
+}
+
+.dark {
+  background: #1F2E35;
+}
+.dark a, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark p {
+  color: #fff;
+}
+.dark .navbar {
+  background: #1F2E35;
+}
+.dark #enterprise {
+  background: #22343D;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,29 @@
+a{
+    color: #22343D;
+}
+.light{
+    background: #fff;
+    a,h2,h3,h4,h5,h6,p{
+        color: #22343D;
+    }
+}
+.navbar{
+    background: #fff;
+}
+#enterprise{
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0.00) 100%);
+
+}
+.dark{
+    background: #1F2E35;
+    
+    a,h2,h3, h4, h5, h6,p{
+        color: #fff;
+    }
+    .navbar{
+        background: #1F2E35;
+    }
+    #enterprise{
+        background: #22343D;
+    }
+}

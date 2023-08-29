@@ -1,7 +1,10 @@
-// document.querySelector('.theme__change').addEventListener('click', function() {
-//     document.body.style.background = '#1f2e35';
-//   });
-  
+// theme change
+function changeColor(){
+  let elTheme = document.body;
+  elTheme.classList.toggle("dark");
+
+}
+
 
 // faq
 let elQuestions = document.querySelectorAll('.faq__question');
