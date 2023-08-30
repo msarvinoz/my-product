@@ -236,7 +236,7 @@
                         color: #02897A;
                     }
                 }
-                input{
+                .email{
                     margin-bottom: 20px;
                     display: block;
                     width: 280px;
@@ -246,7 +246,13 @@
                     border: 1px solid #BCD0E5;
     
                 }
-                button{
+                .success{
+                    border: 2px solid green;
+                }
+                .warning{
+                    border: 2px solid red;
+                }
+                .foot__btn{
                     display: flex;
                     margin: 0 auto;
                     background: #02897A;
@@ -261,7 +267,7 @@
                     color: #fff;
                     text-align: center;
                 }
-                button:hover{
+                .foot__btn:hover{
                     background-color: #fff;
                     color: #02897A;
                     border: 1px solid #02897A;

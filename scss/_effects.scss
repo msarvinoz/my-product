@@ -1,75 +1,3 @@
-// #effects{
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-between;
-//     margin-top: 120px;
-//     margin-bottom: 120px;
-//     .effect__title{
-//         text-align: center;
-//         font-size: 34px;
-//         font-weight: 700;
-//         margin-bottom: 50px;
-//         transition: all 0.3s linear;
-//     }
-//     .effect__title:hover{
-//         color: #02897A;
-//         border-bottom: solid transparent 0;
-//         text-decoration: underline 2px;
-//         margin-left: 10px;
-//     }
-//     .Mobeffects__inner{
-//         display: none;
-//     }
-//     .effects__inner{
-//         display: flex;
-//         .main__img{
-//             cursor: pointer;
-//             transition: all 0.4s ease-in-out;
-//         }
-//         .main__img:hover{
-//             width: 565px;
-//             height: 400px;
-//         }
-//         .mob__img{
-//             display: none;
-//         }
-//         .effect__list{
-//             .effect__item{
-//                 margin-left: 50px;
-//                 img{
-//                     display: inline-block;
-//                     margin-right: 10px;
-//                 }
-
-//                 h5{
-//                     display: inline-block;
-//                     font-size: 24px;
-//                     font-weight: 600;
-//                     margin-bottom: 30px;
-//                 }
-//                 h5:hover{
-//                     color: #02897A;
-//                 }
-//                 p{
-//                     width: 520px;
-//                     font-weight: 400;
-//                     line-height: 28px;
-//                     font-size: 16px;
-//                     text-align: justify;
-//                     margin-bottom: 30px;
-//                     transition: all 0.2s linear;
-//                 }
-//                 p:hover{
-//                     border-bottom: solid transparent 0px;
-//                     text-decoration: underline 2px;
-//                     padding-left: 10px;
-//                 }
-//             }
-//         }
-//     }
-
-// }
-
 @media (max-width: 1700px) and (min-width: 1200px) {
     #effects {
         display: flex;
@@ -157,9 +85,6 @@
 
 @media (max-width: 412px) and (min-width: 280px) {
     #effects {
-        // display: flex;
-        // align-items: center;
-        // justify-content: space-between;
         margin-top: 120px;
         margin-bottom: 100px;
 

@@ -29,7 +29,10 @@
             display: flex;
             flex-direction: row;
             flex-grow: 0.3;
-
+            .mobNav__con{
+                display: flex;
+                flex-grow: 0.3;
+            }
             .list__item {
                 a {
                     transition: all 0.2s linear;
@@ -114,7 +117,13 @@
             .nav__list {
                 padding-top: 20px;
                 display: flex;
+                align-items: center;
+                justify-content: center;
                 flex-grow: 0.3;
+                .mobNav__con{
+                    display: flex;
+                    flex-grow: 0.3;
+                }
 
                 .list__item {
                     a {

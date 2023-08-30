@@ -67,6 +67,10 @@ a {
   flex-direction: row;
   flex-grow: 0.3;
 }
+#header .navbar .nav__list .mobNav__con {
+  display: flex;
+  flex-grow: 0.3;
+}
 #header .navbar .nav__list .list__item a {
   transition: all 0.2s linear;
   font-size: 16px;
@@ -137,6 +141,12 @@ a {
   }
   #header .navbar .nav__list {
     padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0.3;
+  }
+  #header .navbar .nav__list .mobNav__con {
     display: flex;
     flex-grow: 0.3;
   }
@@ -1230,7 +1240,7 @@ a {
   #footer .footer__inner .footer__list .footer__item a:hover {
     color: #02897A;
   }
-  #footer .footer__inner .footer__list input {
+  #footer .footer__inner .footer__list .email {
     margin-bottom: 20px;
     display: block;
     width: 280px;
@@ -1239,7 +1249,13 @@ a {
     border-radius: 4px;
     border: 1px solid #BCD0E5;
   }
-  #footer .footer__inner .footer__list button {
+  #footer .footer__inner .footer__list .success {
+    border: 2px solid green;
+  }
+  #footer .footer__inner .footer__list .warning {
+    border: 2px solid red;
+  }
+  #footer .footer__inner .footer__list .foot__btn {
     display: flex;
     margin: 0 auto;
     background: #02897A;
@@ -1254,7 +1270,7 @@ a {
     color: #fff;
     text-align: center;
   }
-  #footer .footer__inner .footer__list button:hover {
+  #footer .footer__inner .footer__list .foot__btn:hover {
     background-color: #fff;
     color: #02897A;
     border: 1px solid #02897A;
