@@ -1249,12 +1249,6 @@ a {
     border-radius: 4px;
     border: 1px solid #BCD0E5;
   }
-  #footer .footer__inner .footer__list .success {
-    border: 2px solid green;
-  }
-  #footer .footer__inner .footer__list .warning {
-    border: 2px solid red;
-  }
   #footer .footer__inner .footer__list .foot__btn {
     display: flex;
     margin: 0 auto;

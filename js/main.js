@@ -1,3 +1,18 @@
+// email
+let elEmail = document.querySelector('.email')
+let elForm = document.querySelector('.foot__form')
+
+elForm.addEventListener('submit', (e)=>{
+  e.preventDefault();
+  if(elEmail.value.includes('@gmail.com') == false){
+    console.log(elEmail.value);
+    elEmail.style.border = '2px solid red'
+  }else{
+    console.log(elEmail.value);
+    elEmail.style.border = '2px solid green'
+    window.localStorage.setItem('email', elEmail.value)
+  }
+});
 
 // theme change
 function changeColor(){
