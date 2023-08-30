@@ -231,7 +231,8 @@ a {
     display: none;
   }
   #header .navbar .mob__nav .mobNav__con button {
-    margin-left: 40px;
+    margin-top: -2px;
+    margin-left: -2px;
     background: none;
     border: none;
   }
@@ -246,7 +247,6 @@ a {
     border: none;
   }
   #header .navbar .menu__btn .menu__mobile {
-    margin-right: -70px;
     margin-top: -5px;
   }
 }
