@@ -127,8 +127,9 @@
             }
         
             .faq__inner {
-                width: 920px;
                 margin: 0 auto;
+                margin-left: -15px;
+
         
                 img {
                     cursor: pointer;
@@ -145,6 +146,9 @@
                     font-weight: 500;
                     width: 330px;
         
+                }
+                hr{
+                    width: 330px;
                 }
                 .faq__answer, .minus{
                     display: none;

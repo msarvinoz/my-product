@@ -510,7 +510,7 @@ a {
     justify-content: space-between;
   }
   #pricing .container .card__list .card__item {
-    margin-left: -10px;
+    margin-left: -22px;
     width: 322px;
     height: 469px;
     border-radius: 8px;
@@ -872,8 +872,8 @@ a {
     margin-bottom: 40px;
   }
   #faq .container .faq__inner {
-    width: 920px;
     margin: 0 auto;
+    margin-left: -15px;
   }
   #faq .container .faq__inner img {
     cursor: pointer;
@@ -887,6 +887,9 @@ a {
     margin-top: 15px;
     font-size: 16px;
     font-weight: 500;
+    width: 330px;
+  }
+  #faq .container .faq__inner hr {
     width: 330px;
   }
   #faq .container .faq__inner .faq__answer, #faq .container .faq__inner .minus {
@@ -1188,13 +1191,16 @@ a {
 }
 @media (max-width: 412px) and (min-width: 280px) {
   #footer {
-    max-width: 100vw;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
   }
   #footer .footer__inner {
     display: block;
-    padding: 50px;
     margin: 0 auto;
     max-width: 412px;
+    margin-left: -15px;
   }
   #footer .footer__inner .footer__list .footer__logo {
     display: flex;
@@ -1223,7 +1229,6 @@ a {
     font-size: 23px;
     width: 280px;
     margin-bottom: 30px;
-    margin-left: -1px;
     margin-top: 50px;
   }
   #footer .footer__inner .footer__list .footer__item {
