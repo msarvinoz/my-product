@@ -49,3 +49,113 @@
 
     }
 }
+@media (max-width: 1700px) and (min-width: 1200px){
+    #faq {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 140px;
+    
+        .faq__title {
+            text-align: center;
+            font-size: 34px;
+            font-weight: 700;
+        }
+    
+        .faq__text {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+    
+        .faq__inner {
+            width: 920px;
+            margin: 0 auto;
+    
+            img {
+                cursor: pointer;
+                margin-right: 10px;
+                display: inline-block;
+            }
+    
+            p {
+                cursor: pointer;
+                display: inline-block;
+                margin-left: -1px;
+                margin-top: 15px;
+                font-size: 18px;
+                font-weight: 500;
+    
+            }
+            .faq__answer, .minus{
+                display: none;
+              }
+              
+              .faq__question:hover{
+                color: #02897A;
+              }
+            
+    
+    
+        }
+    }
+}
+
+@media (max-width: 412px) and (min-width: 280px){
+    #faq {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        .container{
+            max-width: 412px;
+            margin: 0 auto;
+            .faq__title {
+                text-align: center;
+                font-size: 34px;
+                font-weight: 700;
+            }
+        
+            .faq__text {
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+                margin-bottom: 40px;
+            }
+        
+            .faq__inner {
+                width: 920px;
+                margin: 0 auto;
+        
+                img {
+                    cursor: pointer;
+                    margin-right: 10px;
+                    display: inline-block;
+                }
+        
+                p {
+                    cursor: pointer;
+                    display: inline-block;
+                    margin-left: -1px;
+                    margin-top: 15px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    width: 330px;
+        
+                }
+                .faq__answer, .minus{
+                    display: none;
+                  }
+                  
+                  .faq__question:hover{
+                    color: #02897A;
+                  }
+                
+            }
+        }
+        
+    }
+}

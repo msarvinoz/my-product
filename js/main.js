@@ -5,6 +5,15 @@ function changeColor(){
 
 }
 
+// Navbar
+function menu(){
+  let elMenu = document.querySelector('.mob__nav')
+  let elAll = document.querySelector('.logo');
+  elAll.style.display = 'none'
+  elMenu.style.display = 'flex'
+  
+
+}
 
 // faq
 let elQuestions = document.querySelectorAll('.faq__question');

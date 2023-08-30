@@ -8,6 +8,9 @@
     .join__inner{
         display: flex;
     }
+    .Mobjoin__inner{
+        display: none;
+    }
     .join__title{
         text-align: start;
         color: #fff;
@@ -28,5 +31,105 @@
         white-space: nowrap;
         font-size: 20px;
         font-weight: 600;
+        transition: all 0.3s linear;
+    }
+    .join__btn:hover{
+        background-color: #02897A;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+}
+
+@media (max-width: 1700px) and (min-width: 1200px){
+    #join{
+        background-color: #02897A;
+        max-width: 970px;
+        border-radius: 32px;
+        height: 345px;
+        padding: 60px;
+        margin-bottom: 140px;
+        .join__inner{
+            display: flex;
+        }
+        .Mobjoin__inner{
+            display: none;
+        }
+        .join__title{
+            text-align: start;
+            color: #fff;
+            font-size: 32px;
+            font-weight: 600;
+    
+        }
+        .join__img{
+            margin-top: -40px;
+        }
+        .join__btn{
+            margin-top: -110px;
+            background-color: #fff;
+            border: none;
+            padding: 10px 33px;
+            display: block;
+            border-radius: 8px;
+            white-space: nowrap;
+            font-size: 20px;
+            font-weight: 600;
+            transition: all 0.3s linear;
+        }
+        .join__btn:hover{
+            background-color: #02897A;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+    }
+    
+}
+
+@media (max-width: 412px) and (min-width: 280px){
+    #join{
+        background-color: #02897A;
+        max-width: 371px;
+        border-radius: 32px;
+        height: 688px;
+        padding: 40px;
+        margin-bottom: 40px;
+        .join__inner{
+            display: none;
+        }
+        .join__des{
+            display: none;
+        }
+        .Mobjoin__inner{
+            display: block;
+        }
+        .join__title{
+            width: 328px;
+            text-align: start;
+            color: #fff;
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 130px;
+        }
+        .join__btn{
+            background-color: #fff;
+            border: none;
+            padding: 10px 34px;
+            display: block;
+            border-radius: 8px;
+            white-space: nowrap;
+            font-size: 20px;
+            font-weight: 600;
+            transition: all 0.3s linear;
+            margin-bottom: 50px;
+        }
+        .join__btn:hover{
+            background-color: #02897A;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+        .join__img{
+            // margin-top: -40px;
+        }
+        
     }
 }
